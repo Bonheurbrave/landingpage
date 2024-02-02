@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transparent-form{
+    background:rgba(0 ,0 ,0 ,.61);
+}
+.trans{
+    background:rgba(0 ,0 ,0 ,.95);
+
+}
+.main{
+    background-image:url('./images/srms.jpg');
+    background-size:cover;
+    background-position:cover;
+
+}
+.easy{
+    letter-spacing:4px;
+    
+}
+.intouch-btn{
+    /* background:blue; */
+    background:rgba(0 ,0 ,0 ,.70);
+    box-shadow:0 0 4px dodgerblue ,
+               0 0 16px dodgerblue ,
+               0 0 24px dodgerblue ;
+    border-radius:3000px 10px;
+    animation:bon 3s linear infinite;
+}
+
+.anim-arrow{
+    animation:bona 1s linear infinite;
+}
+@keyframes bon{
+    100%{
+        box-shadow:0 0 4px orange ,
+                   0 0 16px orange ,
+                   0 0 24px orange ;
+
+        border:1px solid orange;
+    }
+}
+@keyframes bona{
+    100%{
+        margin-left:5px
+    }
+}
